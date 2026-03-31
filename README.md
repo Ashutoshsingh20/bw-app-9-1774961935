@@ -3,7 +3,10 @@
 Monochrome light-themed ops dashboard with Express API and static UI.
 
 ## Run locally
-
+```bash
+npm install
+npm start  # http://localhost:4000
+```
 
 ## Endpoints
 - GET /api/health
