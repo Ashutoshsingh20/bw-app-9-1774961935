@@ -1,0 +1,18 @@
+:root { --bg: #ffffff; --text: #111; --muted: #555; --border: #ddd; --card: #f7f7f7; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); }
+.shell { max-width: 1080px; margin: 0 auto; padding: 24px 16px 32px; }
+header { display:flex; justify-content: space-between; align-items:center; gap:12px; border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:16px; }
+.logo { font-weight:800; letter-spacing:-0.5px; }
+.metrics { display:grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap:10px; margin-bottom:14px; }
+.metric { border:1px solid var(--border); background: var(--card); padding:12px; border-radius:10px; }
+.metric .label { color: var(--muted); font-size:12px; }
+.metric .value { font-size:20px; font-weight:700; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap:12px; }
+.card { border:1px solid var(--border); background: var(--card); padding:12px; border-radius:12px; box-shadow: 0 8px 20px rgba(0,0,0,0.05); }
+.card h2 { margin:0 0 10px; }
+form { display:grid; gap:8px; margin-bottom:10px; }
+input, button { padding:10px; border:1px solid var(--border); border-radius:10px; font-size:14px; }
+button { background:#fff; cursor:pointer; font-weight:700; }
+ul { list-style:none; padding:0; margin:0; display:grid; gap:6px; }
+li { padding:10px; border:1px solid var(--border); border-radius:10px; background:#fff; }

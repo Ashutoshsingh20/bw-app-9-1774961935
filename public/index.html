@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ubw app 9 1774961935</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="logo">ubw app 9 1774961935</div>
+      <p>Monochrome ops dashboard</p>
+    </header>
+    <section class="metrics" id="metrics"></section>
+    <section class="grid">
+      <article class="card">
+        <h2>Assets</h2>
+        <form id="asset-form">
+          <input name="name" placeholder="Name" required />
+          <input name="type" placeholder="Type" />
+          <input name="location" placeholder="Location" />
+          <button>Add</button>
+        </form>
+        <ul id="assets"></ul>
+      </article>
+      <article class="card">
+        <h2>Tickets</h2>
+        <form id="ticket-form">
+          <input name="title" placeholder="Title" required />
+          <input name="location" placeholder="Location" />
+          <button>Create</button>
+        </form>
+        <ul id="tickets"></ul>
+      </article>
+      <article class="card">
+        <h2>Energy</h2>
+        <form id="energy-form">
+          <input name="site" placeholder="Site" />
+          <input name="kwh" type="number" step="0.1" placeholder="kWh" />
+          <button>Log</button>
+        </form>
+        <ul id="energy"></ul>
+      </article>
+    </section>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
