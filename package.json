@@ -1,7 +1,7 @@
 {
   "name": "bw-app-9-1774961935",
   "version": "1.0.0",
-  "description": "Neon Harbor monochrome ops dashboard",
+  "description": "Zenith Static monochrome ops dashboard",
   "type": "module",
   "scripts": {
     "start": "node server.js"

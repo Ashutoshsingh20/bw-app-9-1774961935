@@ -1,4 +1,4 @@
-# Neon Harbor
+# Zenith Static
 
 Monochrome light-themed ops dashboard with Express API and static UI.
 
